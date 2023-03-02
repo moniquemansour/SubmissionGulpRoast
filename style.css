@@ -1,0 +1,92 @@
+/* see the brand guide for colors, fonts, and images in CodePen: 
+https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
+
+
+h1{
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  font-family: 'Lato', sans-serif:
+}
+
+.header{
+  background-color:#082B59;
+}
+
+.footer{
+  background-color:#082B59;
+}
+
+.logo{
+  width:120px;
+  display:block;
+  margin: 0 auto;
+  
+}
+.button{
+  background-color:#59331D;
+  color:white;
+  font-size:15px;
+  width:110px;
+  height:50px;
+  border-radius: 10px;
+  border:none;
+}
+
+a{
+  color:white;
+  font-family: 'Lato', sans-serif;
+  text-decoration:none;
+}
+
+.navigation{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: center;
+}
+.content{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: center;
+  gap: 40px;
+  max-width:1000px;
+  margin:0px auto;
+} 
+
+.navigation > div{
+  width: 120px;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.fa-solid{
+  color:white;
+  margin-right:5px;
+}
+
+.divider{
+  margin-top:5px;
+  height:10px;
+  width:100%;
+  background-color:#D98555;
+}
+
+.card{
+  background-color:#59331D;
+  width:1000px;
+  border-radius: 25px;
+}
+
+.cardimg{
+  width:100%;
+  border-radius: 25px 25px 0 0;
+}
+
+.card p{
+  color:white;
+  margin:15px;
+}
